@@ -1,16 +1,26 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sound Player</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
+  <div class="container">
+    <div id="box">
+    <div id="buttons">
+      <button class="btn" onclick="playSound('applause.mp3')">Applause</button>
+      <button class="btn" onclick="playSound('boo.mp3')">Boo</button>
+      <button class="btn" onclick="playSound('gasp.mp3')">Gasp</button>
+      <button class="btn" onclick="playSound('tada.mp3')">Tada</button>
+      <button class="btn" onclick="playSound('victory.mp3')">Victory</button>
+      <button class="btn" onclick="playSound('wrong.mp3')">Wrong</button>
+      <button class="btn stop" onclick="stopSound()">Stop</button>
+    </div>
+  </div>
+	  </div>
+  
+  <script src="script.js"></script>
 </body>
-
 </html>

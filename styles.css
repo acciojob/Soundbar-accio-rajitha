@@ -1,1 +1,42 @@
 /*  your css code here. If applicable */
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  text-align: center;
+}
+
+.container {
+  
+  align-content:center;
+}
+
+#box {
+display:flex;
+	align-items:center;
+	
+  width: 100vw;
+  height: 50vh;
+  background-color: rgb(111, 45, 168);
+  margin: 0 auto;
+}
+
+#buttons {
+  margin-top: 20px;
+}
+
+.btn {
+
+ margin : 10px;
+ 
+  padding: 5px 10px;
+  font-size: 10px;
+  cursor: pointer;
+  background-color: purple /* Changed color to plum */
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+.stop {
+  background-color: ;
+}
